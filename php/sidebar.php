@@ -1,4 +1,4 @@
-  <div id="sidebar-wrapper" style="position:absolute;height:140%">
+  <div id="sidebar-wrapper" style="position:absolute;height:275%">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand" style="border-bottom:1px solid white">
                     <a href="index.php">
