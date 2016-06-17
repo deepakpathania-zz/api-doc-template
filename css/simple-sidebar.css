@@ -13,7 +13,9 @@
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
+.grey {
+    background-color:rgba(128, 128, 128, 0.28); 
+}
 #wrapper.toggled {
     padding-left: 250px;
 }

@@ -40,7 +40,7 @@
 
         <!-- Page Content -->
         <?php 
-        include('php/send_to_content.php');
+        include('php/send_to_filter.php');
         ?>
       <!-- /#page-content-wrapper -->
 

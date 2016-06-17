@@ -10,13 +10,13 @@
                     <a href="send_to_subscriber.php">Send to All subscribers</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="send_to_segment.php">Send to A Segment</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="send_to_filter.php">Send to a Filter</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#"></a>
                 </li>
                 <li>
                     <a href="#">About</a>

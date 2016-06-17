@@ -2,18 +2,19 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Send to All subscribers</h1>
-                        <input type="button" href="#menu-toggle" class="btn btn-default" id="menu-toggle" onclick="change()" value="Close Side Menu" />
+                        <h1>Send to A Particular Filter</h1>
+                         <input type="button" href="#menu-toggle" class="btn btn-default" id="menu-toggle" onclick="change()" value="Close Side Menu" />
                         <br/><hr/>
-                        <p>This endpoint is used to send a notification to all subscribers. The request method of this call needs to be "POST".<br/>
+                        <p>You can use this endpoint to send notifications to all of your subscribers in a particular segment. <br/>
 
-                        The title, message and URL of the notification and the Image URL have to be sent as POST parameters to the API endpoint.<br/>
+                       The title, message and url of the notification have to be sent as POST parameters to the API endpoint.<br/>
 
-                        URL of the image to be shown in the notification needs to point to a 192 x 192 PNG. If this is not provided, the default company logo will be shown in the notification.<br/>
+                        URL of the image to be shown in the notification needs to point to a 192 x 192 PNG. If this is not provided, the default company logo will be shown in the notification.
+<br/>
                         </p>
                        <hr/>
                        <h3>Endpoint URL</h3>
-                       <p>https://api.letreach.com/send/all/</p>
+                       <p>https://api.letreach.com/send/segment/{:filterid}</p>
                        <hr/>
                        <h3>Request parameters</h3>
                        <div class="container" style="border:1px solid grey; width:80%;border-top:2px solid grey;border-bottom:2px solid grey;border-left:5px solid grey;border-right:1px solid grey">
@@ -150,10 +151,10 @@
                     <h3>Response</h3>
                     <ul>
                     <li>Success format : <br/>
-                    <code><pre>       {
-        "success":"1",
+      <code><pre>       {
+        "success":"0",
         "requestid":"542232113asj223j2323222"
-        }</pre></code> </li>
+        }</pre></code>             </li>
       <li>Failure Response : <br/>
       <code><pre>       {
         "success":"0",
@@ -166,14 +167,14 @@
                     </div>
                 </div>
             </div>
-        </div>  
-        <script type="text/javascript">
+        </div>
+                <script type="text/javascript">
                     function change() {
             var elem = document.getElementById('menu-toggle');
              if (elem.value=="Close Side Menu") elem.value = "Open Side Menu";
             else elem.value = "Close Side Menu";
         }
-        </script>
+        </script>  
         <script>
             $("#menu-toggle").click(function(e) {
         e.preventDefault();
