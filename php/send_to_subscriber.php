@@ -2,10 +2,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>Send to A Particular Segment</h1>
+                        <h1>Send to A Particular Subscriber</h1>
                          <input type="button" href="#menu-toggle" class="btn btn-default" id="menu-toggle" onclick="change()" value="Close Side Menu" />
                         <br/><hr/>
-                        <p>You can use this endpoint to send notifications to all of your subscribers in a particular segment. <br/>
+                        <p>YYou can use this endpoint to send notifications to all of your subscribers in a particular segment. <br/>
 
                        The title, message and url of the notification have to be sent as POST parameters to the API endpoint.<br/>
 
@@ -14,7 +14,7 @@
                         </p>
                        <hr/>
                        <h3>Endpoint URL</h3>
-                       <p>https://api.letreach.com/send/segment/{:segment}</p>
+                       <p>https://api.letreach.com/send/subscriber/hash</p>
                        <hr/>
                        <h3>Request parameters</h3>
                       <div class="container" style="border:1px solid grey; width:80%;border-top:2px solid grey;border-bottom:2px solid grey;border-left:5px solid grey;border-right:1px solid grey">
@@ -153,7 +153,7 @@
                     <li>Success format : <br/>
       <code><pre>       {
         "success":"0",
-        "message":"Invalid authentication token"
+        requestid":"542232113asj223j2323222"
         }</pre></code>             </li>
       <li>Failure Response : <br/>
       <code><pre>       {

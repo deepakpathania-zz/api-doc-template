@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style="background-color:#4F525B;color:white">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,23 +8,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">LetReach</a>
+      <a class="navbar-brand" href="#"  style="color:white;font-family: Hind;">Let<b>Reach</b></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Documentation<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Support</a></li>
+        <li class="active"><a style="color:white;font-family: Hind;" class="bold" href="#">Documentation<span class="sr-only">(current)</span></a></li>
+        <li><a href="#" style="color:white;font-family: Hind;" class="bold">Support</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
               <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button style="background-color:#4B78A7;color:white" type="submit" class="btn btn-default">Submit</button>
       </form>
-          <li><a href="#">Log in</a></li>
+          <li><a style="color:white;font-family: Hind;" class="bold" href="#">Log in</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

@@ -19,8 +19,17 @@
 #wrapper.toggled {
     padding-left: 250px;
 }
+.sidebar-nav > li {
+     color:white;
+     font-family: Hind;
+}
 .mtop {
     margin-top: -20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #4B78A7;
 }
 #sidebar-wrapper {
     z-index: 1000;

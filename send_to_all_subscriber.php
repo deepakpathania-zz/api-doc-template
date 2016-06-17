@@ -40,7 +40,7 @@
 
         <!-- Page Content -->
         <?php 
-        include('php/send_to_subscriber.php');
+        include('php/send_to_all_subscriber.php');
         ?>
       <!-- /#page-content-wrapper -->
 
